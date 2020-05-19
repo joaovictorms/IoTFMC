@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Digite sua idade"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#203354"
+        android:onClick="calcFMC"
+        android:text="Calcular FMC"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</FrameLayout>
